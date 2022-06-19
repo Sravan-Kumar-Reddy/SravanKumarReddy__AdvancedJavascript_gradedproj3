@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typing Game</title>
-    <link rel="stylesheet" href="css/typeSpeedCalculator.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Game</title>
+  <link rel="stylesheet" href="css/typeSpeedCalculator.css">
 </head>
+
 <body>
   <h1>Test your Typing Speed</h1>
   <div id="metricRow">
+    <div class="metricContainer" id="wpmContainer">
+      <div class="containerHeader">
+        <p id="wpmHeader">WPM</p>
+      </div>
+      <div class="containerContent" id="wpmContent">
+        0
+      </div>
+    </div>
+    <div class="metricContainer" id="cpmContainer">
+      <div class="containerHeader">
+        <p id="cpmHeader">CPM</p>
+      </div>
+      <div class="containerContent" id="cpmContent">
+        0
+      </div>
+    </div>
     <div class="metricContainer" id="errorContainer">
       <div class="containerHeader">
         <p id="errorHeader">ERRORS</p>
       </div>
       <div class="containerContent" id="errorContent">
-          0
+        0
       </div>
     </div>
     <div class="metricContainer" id="timeContainer">
       <div class="containerHeader">
-         <p id="timerHeader">TIME</p>
+        <p id="timerHeader">TIME</p>
       </div>
       <div class="containerContent" id="timerContent">
-            
+
       </div>
     </div>
     <div class="metricContainer" id="accuracyContainer">
       <div class="containerHeader">
-          <p id="accuracyHeader">%ACCURACY</p> 
+        <p id="accuracyHeader">%ACCURACY</p>
       </div>
       <div class="containerContent" id="accuracyContent">
-        0
+        100
       </div>
     </div>
   </div>
-    <br>
-    <br>
-    <div id="dummyTextContainer">
-        <p>Some dummy text.</p>
-    </div>
-    <br>
-    <br>
-    <div id="inputTextContainer">
-        <input type="text" name="" placeholder="start typing here..." id="inputText">
-    </div>
-  
+  <br>
+  <br>
+  <div id="dummyTextContainer">
+    <p id="dummyText">Click on the area below to start the game</p>
+  </div>
+  <br>
+  <br>
+  <div id="inputTextContainer">
+    <input type="text" name="" placeholder="start typing here..." id="inputText">
+  </div>
+  <br>
+  <div>
+    <button id="restart">Restart</button>
+  </div>
 
 
+
+  <script src="js/constants.js"></script>
   <script src="js/typeSpeedCalculator.js"></script>
 </body>
+
 </html>

@@ -1,8 +1,8 @@
-body{
+body {
     text-align: center;
 }
 
-.containerHeader>p{
+.containerHeader>p {
     font-size: 7px;
     font-weight: bold;
     padding: 0 !Important;
@@ -10,36 +10,46 @@ body{
     margin-top: 3px
 }
 
-#metricRow{
-    width: 40vw;
-    margin-left: 30vw;
-    margin-right: 30vw;
+#metricRow {
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     display: flex;
     justify-content: space-around;
 }
 
-.metricContainer{
+.metricContainer {
     height: 60px;
     width: 60px;
     border-radius: 5px;
     background-color: #b3c804;
     box-shadow: 3px 5px 3px 1px #000000c7;
 }
-.containerContent{
+
+.containerContent {
     font-size: 35px;
     text-align: center;
 }
 
-#dummyTextContainer{
+.incorrectChar {
+    color: red;
+    text-decoration: underline;
+}
+
+.correctChar {
+    color: darkgreen;
+}
+
+#dummyTextContainer {
     background-color: #b3c804;
     padding: 0.15%;
-    margin-left: 30vw;
-    margin-right: 30vw;
-    width: 40vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 60vw;
     box-shadow: 3px 5px 3px 1px #000000c7;
 }
 
-#inputTextContainer>input[type="text"]{
+#inputTextContainer>input[type="text"] {
     background-color: #f5ff9b;
     padding: 2%;
     width: 35.9vw;
@@ -48,4 +58,11 @@ body{
     box-shadow: 3px 5px 3px 1px #000000c7;
     border: none;
     outline: none;
+}
+
+button {
+    padding: 1% 4%;
+    background-color: azure;
+    border-radius: 5px;
+
 }
