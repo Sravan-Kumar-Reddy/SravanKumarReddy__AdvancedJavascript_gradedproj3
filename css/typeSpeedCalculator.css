@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+
+.containerHeader>p{
+    font-size: 7px;
+    font-weight: bold;
+    padding: 0 !Important;
+    margin: 0;
+    margin-top: 3px
+}
+
+#metricRow{
+    width: 40vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.metricContainer{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #b3c804;
+    box-shadow: 3px 5px 3px 1px #000000c7;
+}
+.containerContent{
+    font-size: 35px;
+    text-align: center;
+}
+
+#dummyTextContainer{
+    background-color: #b3c804;
+    padding: 0.15%;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    width: 40vw;
+    box-shadow: 3px 5px 3px 1px #000000c7;
+}
+
+#inputTextContainer>input[type="text"]{
+    background-color: #f5ff9b;
+    padding: 2%;
+    width: 35.9vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    box-shadow: 3px 5px 3px 1px #000000c7;
+    border: none;
+    outline: none;
+}
